@@ -1,5 +1,5 @@
-// API service for handling form data with JSON Server
-const API_BASE_URL = 'http://localhost:3001'
+// API service for handling form data with Express.js backend
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
 
 class ApiService {
   // Save form data as draft
